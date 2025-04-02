@@ -1,1 +1,43 @@
-Data/EURUSD_M1.csv
+#ta
+Data/
+
+# 📁 Conda environment (lokální prostředí ve složce projektu)
+env/
+
+# 🧠 Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 📓 Jupyter notebooky (checkpoints a metadata)
+.ipynb_checkpoints/
+*.ipynb~  
+
+# 📦 Modely, checkpointy
+models/
+*.h5
+*.hdf5
+*.pkl
+*.pt
+*.ckpt
+
+# 📈 Logy, výstupy z tréninku
+logs/
+*.log
+
+# 📊 Výstupy, grafy
+reports/figures/
+reports/backtests/
+
+# 📑 Config backupy
+*.yaml~
+*.json~
+*.bak
+
+# 🧪 VS Code metadata (volitelné)
+.vscode/
+
+# 💣 Soubory OS
+.DS_Store
+Thumbs.db

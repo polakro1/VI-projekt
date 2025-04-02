@@ -1,0 +1,17 @@
+name: eurusd_bot
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyterlab
+  - tensorflow  # obsahuje i Keras
+  - ta-lib
+  - pip
+  - pip:
+    - backtrader
